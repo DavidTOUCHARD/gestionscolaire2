@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* eu.ensup.gestionscolairespringboot
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/gestionscolairespringboot-0.0.1-SNAPSHOT.war
