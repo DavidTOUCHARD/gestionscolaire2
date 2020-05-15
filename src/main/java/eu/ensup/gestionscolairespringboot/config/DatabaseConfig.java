@@ -1,4 +1,4 @@
-package eu.ensup.gestionscolairespringboot.config
+package eu.ensup.gestionscolairespringboot.config;
 import com.zaxxer.hikari.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.*;
